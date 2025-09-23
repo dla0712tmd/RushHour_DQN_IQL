@@ -50,14 +50,16 @@
   <div align="left">
   <img src="https://github.com/user-attachments/assets/fb0748fa-d07f-407b-ae54-86983303863f" width="250"/>
   <img src="https://github.com/user-attachments/assets/baac4b98-ca13-4280-b64e-24058cc9147c" width="250"/>
-
+  <img width="750" height="375" alt="image" src="https://github.com/user-attachments/assets/a9a5306a-4793-4fbc-a8d3-a8e64507927a" />
   </div>
+
 - IQL
   <div align="left">
   난이도 중
   </div>
-
   <img src="https://github.com/user-attachments/assets/529c6aca-2321-4281-b41c-77ca0bbebe70" width="250"/>
+ <img width="750" height="375" alt="image" src="https://github.com/user-attachments/assets/00995231-db65-4070-b548-e91e4fb8ec2d" />
+
 ## 설치 및 실행
  **1. 프로젝트 클론**
 ```bash
