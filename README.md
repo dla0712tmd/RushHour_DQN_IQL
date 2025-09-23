@@ -21,35 +21,30 @@ Rush Hour 퍼즐 custom 환경을 제작
   - 불필요한 움직임 → -1
   - 목표 도달 시 → +100
  
-## Model & Methodology
+## Model
 - **DQN (Deep Q-Network)**: 개별 차량을 에이전트로 두고 Q-value 기반 학습 수행
 - **Independent Q-Learning (IQL)**: 각 차량이 독립적으로 Q-function을 학습
 - **하이퍼파라미터:**
   - 학습률: 1e-3
-  - 감가율(γ): 0.99
+  - 감가율(γ): 0.9
   - 탐험 전략: ε-greedy (ε=1.0 → 0.1, linear decay)
 
 ## 설치 및 실행
- 1. 프로젝트 클론
+ **1. 프로젝트 클론**
 ```bash
   git clone https://github.com/rushHour-SMU/rushHour.git
   cd rushHour
   ```
- 2. 가상환경 설정
-  가상환경 만들기
-  프로젝트 디렉토리에서 가상환경을 생성합니다:
-
+ **2. 가상환경 설정**
 ```bash
 python3 -m venv venv
 ```
-- 가상환경 활성화
+ **3. 가상환경 활성화**
 ```bash
 ./activate_deactivate
 ```
 
-3. 패키지 설치
-
-- `requirements.txt` 파일에 정의된 의존성 패키지들을 설치하려면 아래 명령어를 실행합니다:
+ **4. 패키지 설치**
 ```bash
 pip install -r requirements.txt
 ```
