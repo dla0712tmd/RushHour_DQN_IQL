@@ -35,7 +35,25 @@
   - **Discount factor(γ)**: 0.9
   - **탐험 전략**: ε-greedy (epsilon 초기값 0.2, epsilon_decay = 0.99, min_epsilon = 0.01)
   - **episode_num**: 5000
+
 ## Result
+각 에피소드별 Steps Taken과 Total Reward를 측정하여 성능을 비교
+<div align="left">
+  <b>DQN </b>
+  </div>
+  <img width="620" height="206" alt="image" src="https://github.com/user-attachments/assets/82583fc1-dd45-41d0-aa5d-c63e04f9c8d1" />
+  
+DQN은 수많은 에이전트의 상호작용으로 인해 방대한 상태 공간을 효과적으로 탐색하지 못하고 학습이 수렴되지 않는 문제가 발생합니다.
+  <div align="left">
+   <b>IQL</b>
+  </div>
+  <img width="620" height="206" alt="image" src="https://github.com/user-attachments/assets/21c852b1-791b-4dd4-ab98-53c83934da38" />
+ 
+IQL은 각 에이전트가 다른 에이전트의 존재를 환경의 일부로 간주하고 독립적으로 학습합니다. 
+<br>
+이로 인해 상태 공간이 급격히 커지는 문제를 효과적으로 회피하며 학습의 안정성을 확보할 수 있었습니다.
+
+## Rendering
 - All-Random
   <div align="left">
   난이도 중 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 난이도 상
@@ -50,15 +68,15 @@
   <div align="left">
   <img src="https://github.com/user-attachments/assets/fb0748fa-d07f-407b-ae54-86983303863f" width="250"/>
   <img src="https://github.com/user-attachments/assets/baac4b98-ca13-4280-b64e-24058cc9147c" width="250"/>
-  <img width="750" height="375" alt="image" src="https://github.com/user-attachments/assets/a9a5306a-4793-4fbc-a8d3-a8e64507927a" />
   </div>
 
 - IQL
   <div align="left">
   난이도 중
   </div>
+  <div align="left">
   <img src="https://github.com/user-attachments/assets/529c6aca-2321-4281-b41c-77ca0bbebe70" width="250"/>
- <img width="750" height="375" alt="image" src="https://github.com/user-attachments/assets/00995231-db65-4070-b548-e91e4fb8ec2d" />
+  </div>
 
 ## 설치 및 실행
  **1. 프로젝트 클론**
