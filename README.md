@@ -43,15 +43,15 @@
   </div>
   <img width="620" height="206" alt="image" src="https://github.com/user-attachments/assets/82583fc1-dd45-41d0-aa5d-c63e04f9c8d1" />
   
-DQN은 수많은 에이전트의 상호작용으로 인해 방대한 상태 공간을 효과적으로 탐색하지 못하고 학습이 수렴되지 않는 문제가 발생합니다.
+DQN은 많은 에이전트의 상호작용으로 인해 방대한 상태 공간을 효과적으로 탐색하지 못하고 학습이 수렴되지 않는 문제가 발생
   <div align="left">
    <b>IQL</b>
   </div>
   <img width="620" height="206" alt="image" src="https://github.com/user-attachments/assets/21c852b1-791b-4dd4-ab98-53c83934da38" />
  
-IQL은 각 에이전트가 다른 에이전트의 존재를 환경의 일부로 간주하고 독립적으로 학습합니다. 
+IQL은 각 에이전트가 다른 에이전트의 존재를 환경의 일부로 간주하고 독립적으로 학습
 <br>
-이로 인해 상태 공간이 급격히 커지는 문제를 효과적으로 회피하며 학습의 안정성을 확보할 수 있었습니다.
+이로 인해 상태 공간이 급격히 커지는 문제를 효과적으로 회피하며 학습의 안정성을 확보할 수 있다
 
 ## Rendering
 - All-Random
