@@ -1,6 +1,6 @@
 # 🚦 Rush Hour environment with Reinforcement Learning
 
-> **Multi-Agent RL**을 이용해 Rush Hour 퍼즐을 최적화하는 프로젝트
+> **DQN**과 **Multi-Agent RL**을 이용해 Rush Hour 퍼즐을 최적화하는 프로젝트
 
 ---
 
